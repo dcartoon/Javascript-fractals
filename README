@@ -1,0 +1,9 @@
+This is currently a basic JavaScript-based fractal renderer.  It requires Canvas support.
+
+The code is structured in a way that new it should be easy to add support for different types of fractals.
+
+Work items:
+-Improve performance(there are some easy optimizations available on Wikipedia(http://en.wikipedia.org/wiki/Mandelbrot_set#Optimizations)
+-Stop current rendering when a click event occurs
+-Currently, every pixel is drawn to the canvas separately.  Drawing actually takes a significant amount of time(in seconds).  Drawing continuous regions of color in a single operation could improve performance
+-See if HTML5 Worker Threads can be put to use
